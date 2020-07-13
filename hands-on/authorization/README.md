@@ -80,7 +80,7 @@ Check the name of the secret via:
 
 The response should be similar to the following (please note the `secrets` entry and the secret name `jenkins-token-928fn`):
 
-```
+```yaml
 apiVersion: v1
 kind: ServiceAccount
 metadata:
