@@ -15,7 +15,7 @@ We will create now your service account and assign admin rights.
 ---
 
 #### Cluster-Admin
-The cluster already contains a set of pre-defined cluster roles and one of the is: `cluster-admin`.  
+The cluster already contains a set of pre-defined cluster roles and one of them is: `cluster-admin`.  
 
 >**WARNING** replace the placeholders of `YOUR_UNIQUE_NAMESPACE_NAME` and `YOUR_NAME` with your values!
 
@@ -47,6 +47,6 @@ You can set now the current `kubeconfig` context via:
 
 ---
 
-#### 
+#### Cleanup
 
 Now try to list the other contexts present in your kubeconfig and revert back to the previous default admin context.
